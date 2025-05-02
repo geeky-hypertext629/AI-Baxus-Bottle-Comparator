@@ -41,7 +41,8 @@ This combines **GenAI's natural language understanding** with **programmatic res
 
 ```bash
 git clone https://github.com/geeky-hypertext629/AI-Baxus-Bottle-Comparator
-cd AI-Baxus-Bottle-Comparator
+or
+download the zip file
 ```
 ### 2. Create your own gemini API key
 
