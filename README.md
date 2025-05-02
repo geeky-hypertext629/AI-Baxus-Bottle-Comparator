@@ -8,7 +8,6 @@ This is a Chrome extension that leverages Google Gemini (Gemini Pro API) and the
 - 🧠 Uses **Gemini Pro (via PaLM API)** to:
   - Extract relevant JSON data (name, price, product URL)
   - Summarize product details
-- 🧼 Parses and repairs malformed JSON responses using `jsonrepair`
 - 📦 Matches product details with backend data via the **Baxus API**
 - 🛠️ Simple popup UI for interaction
 
@@ -21,7 +20,7 @@ We use **Gemini Pro (PaLM API)** to analyze unstructured page content and extrac
 - `Price`
 - `Product URL`
 
-To ensure robustness against malformed output (due to line breaks, formatting issues, etc.), we use the `jsonrepair` library to clean the response before parsing it with `JSON.parse()`.
+
 
 This combines **GenAI's natural language understanding** with **programmatic resilience** for extracting clean product data.
 
@@ -32,7 +31,6 @@ This combines **GenAI's natural language understanding** with **programmatic res
 - **Chrome Extension** (Manifest V3)
 - **Vanilla JavaScript / HTML / CSS**
 - **Google Gemini API (PaLM)**
-- **jsonrepair** for fixing malformed JSON
 - **Baxus API** for product validation
 
 ---
