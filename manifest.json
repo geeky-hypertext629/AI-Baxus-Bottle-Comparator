@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Website AI Assistant",
+  "name": "Baxus Bottle Comparator",
   "version": "1.0",
   "description": "Scrape website content and ask Gemini AI questions about it",
   "action": {
